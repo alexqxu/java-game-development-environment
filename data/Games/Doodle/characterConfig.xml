@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General Player Controls-->
+<Characters>
+    <Character>
+        <Name>Character</Name>
+        <Image>images/character.gif</Image>
+        <Controls>
+            <Control>Left, A</Control>
+            <Control>Right, D</Control>
+            <Control>Up, W</Control>
+            <Control>Down, S</Control>
+        </Controls>
+        <Size>
+            <X>7</X>
+            <Y>130</Y>
+            <Width>1</Width>
+            <Height>2</Height>
+        </Size>
+        <Interactions>
+
+            <Interaction>Ether, TOP, ExternalForce</Interaction>
+
+            <Interaction>paddle_2, LEFT,None</Interaction>
+            <Interaction>paddle_2, RIGHT, None</Interaction>
+            <Interaction>paddle_2, TOP, Down</Interaction>
+            <Interaction>paddle_2, BOTTOM,Stand</Interaction>
+
+            <Interaction>paddle_1, LEFT,None</Interaction>
+            <Interaction>paddle_1, RIGHT, None</Interaction>
+            <Interaction>paddle_1, BOTTOM,Stand</Interaction>
+            <Interaction>paddle_1, TOP, Down</Interaction>
+
+
+            <Interaction>enemy_1, LEFT,ReduceScore</Interaction>
+            <Interaction>enemy_1, RIGHT, ReduceScore</Interaction>
+            <Interaction>enemy_1, BOTTOM,ReduceScore</Interaction>
+            <Interaction>enemy_1, TOP, ReduceScore</Interaction>
+
+            <Interaction>enemy_2, LEFT,ReduceScore</Interaction>
+            <Interaction>enemy_2, RIGHT, ReduceScore</Interaction>
+            <Interaction>enemy_2, BOTTOM,ReduceScore</Interaction>
+            <Interaction>enemy_2, TOP, ReduceScore</Interaction>
+
+
+
+
+
+            <Interaction>coin_2, LEFT,ReduceLives</Interaction>
+            <Interaction>coin_2, RIGHT, ReduceLives</Interaction>
+            <Interaction>coin_2, BOTTOM,ReduceLives</Interaction>
+            <Interaction>coin_2, TOP, ReduceLives</Interaction>
+
+            <Interaction>coin_1, LEFT,IncreaseScore</Interaction>
+            <Interaction>coin_1, RIGHT, IncreaseScore</Interaction>
+            <Interaction>coin_1, BOTTOM,IncreaseScore</Interaction>
+            <Interaction>coin_1, TOP, IncreaseScore</Interaction>
+
+        </Interactions>
+    </Character>
+
+<!--    <Character>-->
+<!--        <Name>BOT</Name>-->
+<!--        <Image>images/mario_running.gif</Image>-->
+<!--        <Controls>-->
+<!--            <Control>Left, "virtual"A</Control>-->
+<!--            <Control>Right, "virtual"D</Control>-->
+<!--            <Control>Up, "virtual"W</Control>-->
+<!--            <Control>Down, "virtual"S</Control>-->
+<!--        </Controls>-->
+<!--        <Size>-->
+<!--            <X>7</X>-->
+<!--            <Y>2</Y>-->
+<!--            <Width>1</Width>-->
+<!--            <Height>2</Height>-->
+<!--        </Size>-->
+<!--        <Interactions>-->
+<!--            <Interaction>Brick, LEFT, Right</Interaction>-->
+<!--            <Interaction>Brick, RIGHT, Left</Interaction>-->
+<!--            <Interaction>Brick, BOTTOM, Stand</Interaction>-->
+<!--            <Interaction>Brick, TOP, Down</Interaction>-->
+<!--            <Interaction>Ether, TOP, ExternalForce</Interaction>-->
+
+<!--            <Interaction>MovingBrick, LEFT, WallHitLeft</Interaction>-->
+<!--            <Interaction>MovingBrick, RIGHT, WallHitRight</Interaction>-->
+<!--            <Interaction>MovingBrick, BOTTOM, Stand</Interaction>-->
+<!--            <Interaction>MovingBrick, TOP, Stand</Interaction>-->
+<!--        </Interactions>-->
+<!--    </Character>-->
+</Characters>

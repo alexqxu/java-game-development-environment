@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General Player Controls-->
+<Characters>
+    <Character>
+        <Name>Mario</Name>
+        <Image>images/mario_running.gif</Image>
+        <Controls>
+            <Control>Left, A</Control>
+            <Control>Right, D</Control>
+            <Control>Up, W</Control>
+            <Control>Down, S</Control>
+        </Controls>
+        <Size>
+            <X>7</X>
+            <Y>2</Y>
+            <Width>1</Width>
+            <Height>2</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Brick, LEFT, Right</Interaction>
+            <Interaction>Brick, RIGHT, Left</Interaction>
+        </Interactions>
+    </Character>
+</Characters>

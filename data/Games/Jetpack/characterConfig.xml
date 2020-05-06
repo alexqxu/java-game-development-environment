@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General Player Controls-->
+<Characters>
+    <Character>
+        <Name>Character</Name>
+        <Image>images/character.png</Image>
+        <Controls>
+            <Control>Up, W</Control>
+            <Control>Down, S</Control>
+        </Controls>
+        <Size>
+            <X>3</X>
+            <Y>3</Y>
+            <Width>2</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+
+            <Interaction>Ether, TOP, ExternalForce</Interaction>
+
+            <Interaction>Missile, LEFT,ReduceLives</Interaction>
+            <Interaction>Missile, RIGHT, ReduceLives</Interaction>
+            <Interaction>Missile, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Missile, TOP, ReduceLives</Interaction>
+
+            <Interaction>Coin, LEFT, IncreaseScore</Interaction>
+            <Interaction>Coin, RIGHT, IncreaseScore</Interaction>
+            <Interaction>Coin, BOTTOM, IncreaseScore</Interaction>
+            <Interaction>Coin, TOP, IncreaseScore</Interaction>
+
+            <Interaction>Portal, LEFT, Right</Interaction>
+            <Interaction>Portal, RIGHT, Right</Interaction>
+            <Interaction>Portal, BOTTOM, Right</Interaction>
+            <Interaction>Portal, TOP, Right</Interaction>
+
+            <Interaction>Slow, LEFT, Left</Interaction>
+            <Interaction>Slow, RIGHT, Left</Interaction>
+            <Interaction>Slow, BOTTOM, Left</Interaction>
+            <Interaction>Slow, TOP, Left</Interaction>
+
+            <Interaction>End, LEFT,ReduceLives</Interaction>
+            <Interaction>End, RIGHT, ReduceLives</Interaction>
+            <Interaction>End, BOTTOM, ReduceLives</Interaction>
+            <Interaction>End, TOP, ReduceLives</Interaction>
+
+        </Interactions>
+    </Character>
+</Characters>

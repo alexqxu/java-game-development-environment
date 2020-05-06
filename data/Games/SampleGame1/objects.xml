@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Defines what objects that exist-->
+<Objects>
+    <Object>
+        <Name>Brick</Name>
+        <ImagePath>images/brick.gif</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT, ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM, ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+            <Interaction>Brick, LEFT, ReduceLives</Interaction>
+            <Interaction>Brick, RIGHT, ReduceLives</Interaction>
+            <Interaction>Brick, BOTTOM, ReduceLives</Interaction>
+            <Interaction>Brick, TOP, ReduceLives</Interaction>
+        </Interactions>
+        <Movements>
+
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>MovingBrick</Name>
+        <ImagePath>images/enemy.gif</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM, ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+            <Interaction>Brick, LEFT,ReduceLives</Interaction>
+            <Interaction>Brick, RIGHT, ReduceLives</Interaction>
+            <Interaction>Brick, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Brick, TOP, ReduceLives</Interaction>
+
+            <Interaction>MovingBrick, LEFT, None</Interaction>
+            <Interaction>MovingBrick, RIGHT, None</Interaction>
+            <Interaction>MovingBrick, BOTTOM, None</Interaction>
+            <Interaction>MovingBrick, TOP, None</Interaction>
+
+        </Interactions>
+        <Movements>
+            <Movement>Up,100</Movement>
+            <Movement>Left,100</Movement>
+            <Movement>Left,30</Movement>
+            <Movement>Right,30</Movement>
+            <Movement>Up,50</Movement>
+            <Movement>Right,100</Movement>
+            <Movement>Up,30</Movement>
+            <Movement>Down,30</Movement>
+            <Movement>Down,50</Movement>
+            <Movement>Down,100</Movement>
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>Pipe</Name>
+        <ImagePath>images/tunnel.png</ImagePath>
+        <Size>
+            <Width>2</Width>
+            <Height>3</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT, None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM, None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+        </Interactions>
+        <Movements>
+
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>Flag</Name>
+        <ImagePath>images/flagpole.png</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>4</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT, ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM, ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+        </Interactions>
+        <Movements>
+
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>Flying_Turtle</Name>
+        <ImagePath>images/Flying_Turtle.png</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+        </Interactions>
+        <Movements>
+            <Movement>Up,100</Movement>
+            <Movement>Down,100</Movement>
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>Goomba</Name>
+        <ImagePath>images/goomba.png</ImagePath>
+        <Size>
+            <Width>2</Width>
+            <Height>2</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+        </Interactions>
+        <Movements>
+            <Movement>Up,100</Movement>
+            <Movement>Down,100</Movement>
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>Bullet_Bill</Name>
+        <ImagePath>images/bullet_bill.png</ImagePath>
+        <Size>
+            <Width>3</Width>
+            <Height>2</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM,None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+        </Interactions>
+        <Movements>
+            <Movement>Left,500</Movement>
+        </Movements>
+    </Object>
+
+
+</Objects>

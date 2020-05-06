@@ -1,0 +1,25 @@
+.root {
+  -fx-border-color: white;
+  -fx-border-radius: 20;
+  -fx-padding: 10 10 10 10;
+  -fx-pref-width: 800;
+  -fx-pref-height: 500;
+  -fx-background-color: #000000;
+}
+
+#hbox{
+  -fx-spacing: 20;
+}
+
+#vbox{
+  -fx-spacing: 20;
+  -fx-padding: 10 10 10 10;
+}
+
+#button{
+  -fx-background-color: #000;
+}
+
+#table-view{
+  -fx-pref-height: 100;
+}

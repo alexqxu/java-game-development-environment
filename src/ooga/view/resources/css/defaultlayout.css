@@ -1,0 +1,50 @@
+#root{
+    -fx-base-background: #1E1E1E;
+    -fx-base-background-dark: #191919;
+    -fx-base-box: #2E2E2E;
+    -fx-base-input: #222222;
+    -fx-base-text: #B4B5B6;
+    -fx-base-highlight: #2E86AB;
+    -fx-base-error: #CF6679;
+    -fx-pref-width: 800;
+    -fx-pref-height: 500;
+}
+
+#button {
+    -fx-text-fill: #006464;
+    -fx-background-color: #DFB951;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+    -fx-font: 16px "Serif";
+    -fx-pref-width: 100px;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+#button:hover {
+    -fx-background-color: #383838;
+    -fx-scale-y: 1.1;
+}
+
+#button:pressed {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+#combo-box {
+    -fx-background-color: -fx-base-box;
+    -fx-background-radius: 4 15 15 4;
+    -fx-text-base-color: -fx-base-highlight;
+}
+
+#vbox-comp{
+    -fx-spacing: 50;
+}
+
+
+
+
+
+
+
+

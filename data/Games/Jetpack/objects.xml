@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Defines what objects that exist-->
+<Objects>
+    <Object>
+        <Name>Missile</Name>
+        <ImagePath>images/evil.png</ImagePath>
+        <Size>
+            <Width>2</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM,None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+
+            <Interaction>Missile, LEFT,ReduceLives</Interaction>
+            <Interaction>Missile, RIGHT, ReduceLives</Interaction>
+            <Interaction>Missile, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Missile, TOP, ReduceLives</Interaction>
+
+            <Interaction>Coin, LEFT, None</Interaction>
+            <Interaction>Coin, RIGHT, None</Interaction>
+            <Interaction>Coin, BOTTOM, None</Interaction>
+            <Interaction>Coin, TOP, None</Interaction>
+
+            <Interaction>Portal, LEFT, None</Interaction>
+            <Interaction>Portal, RIGHT, None</Interaction>
+            <Interaction>Portal, BOTTOM, None</Interaction>
+            <Interaction>Portal, TOP, None</Interaction>
+
+            <Interaction>Slow, LEFT, None</Interaction>
+            <Interaction>Slow, RIGHT, None</Interaction>
+            <Interaction>Slow, BOTTOM, None</Interaction>
+            <Interaction>Slow, TOP, None</Interaction>
+
+            <Interaction>End, LEFT, None</Interaction>
+            <Interaction>End, RIGHT, None</Interaction>
+            <Interaction>End, BOTTOM, None</Interaction>
+            <Interaction>End, TOP, None</Interaction>
+
+        </Interactions>
+        <Movements>
+            <Movement>Left,400</Movement>
+            <Movement>Up,10</Movement>
+            <Movement>Left,50</Movement>
+            <Movement>Down,400</Movement>
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>Coin</Name>
+        <ImagePath>images/coin.png</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+
+            <Interaction>Character, LEFT,ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+
+            <Interaction>Missile, LEFT,ReduceLives</Interaction>
+            <Interaction>Missile, RIGHT, ReduceLives</Interaction>
+            <Interaction>Missile, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Missile, TOP, ReduceLives</Interaction>
+        </Interactions>
+        <Movements>
+
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>Portal</Name>
+        <ImagePath>images/portal.png</ImagePath>
+        <Size>
+            <Width>2</Width>
+            <Height>3</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+
+            <Interaction>Missile, LEFT,ReduceLives</Interaction>
+            <Interaction>Missile, RIGHT, ReduceLives</Interaction>
+            <Interaction>Missile, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Missile, TOP, ReduceLives</Interaction>
+        </Interactions>
+        <Movements>
+
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>End</Name>
+        <ImagePath>images/end.png</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM,None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+
+            <Interaction>Missile, LEFT, None</Interaction>
+            <Interaction>Missile, RIGHT, None</Interaction>
+            <Interaction>Missile, BOTTOM, None</Interaction>
+            <Interaction>Missile, TOP, None</Interaction>
+        </Interactions>
+        <Movements>
+
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>Slow</Name>
+        <ImagePath>images/slow.png</ImagePath>
+        <Size>
+            <Width>2</Width>
+            <Height>2</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+
+            <Interaction>Missile, LEFT,ReduceLives</Interaction>
+            <Interaction>Missile, RIGHT, ReduceLives</Interaction>
+            <Interaction>Missile, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Missile, TOP, ReduceLives</Interaction>
+        </Interactions>
+        <Movements>
+
+        </Movements>
+    </Object>
+
+</Objects>

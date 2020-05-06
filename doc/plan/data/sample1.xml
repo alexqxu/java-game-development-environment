@@ -1,0 +1,20 @@
+<Object>
+	<Name>Brick</Name>
+	<NumSides>4</NumSides>
+	<SolidSides>1,3,4</SolidSides>
+	<Image>brick.png</Image>
+	<Movement>
+<Type>Oscillate</Type>
+<Parameter>50</Parameter>
+</Movement>
+<Reaction>
+	<Attribute1>IncreaseHealth, ColliderObject</Attribute1>
+<Attribute2>DestroySelf, This</Attribute2>
+</Reaction>
+</Object>
+<Object>
+	<Name>Tunnel</Name>
+<NumSides>4</NumSides>
+	<SolidSides>1,2</SolidSides>
+<Image>tunnel.png</Image>
+</Object>

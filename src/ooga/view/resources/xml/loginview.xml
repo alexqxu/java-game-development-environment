@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<setup>
+  <LayoutComponent name="VBox">
+    <TextFieldComponent name = "Name"/>
+    <TextFieldComponent name = "Password"/>
+    <ButtonComponent name="SignIn"/>
+    <ButtonComponent name="SignUp"/>
+  </LayoutComponent>
+</setup>

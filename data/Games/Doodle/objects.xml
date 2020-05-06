@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Defines what objects that exist-->
+<Objects>
+    <Object>
+        <Name>paddle_1</Name>
+        <ImagePath>images/paddle_1.png</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM,None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+
+
+        </Interactions>
+        <Movements>
+<!--            <Movement>Right,100</Movement>-->
+<!--            <Movement>Left,100</Movement>-->
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>paddle_2</Name>
+        <ImagePath>images/paddle_2.jpg</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM,None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+
+        </Interactions>
+        <Movements>
+<!--            <Movement>Right,100</Movement>-->
+<!--            <Movement>Left,100</Movement>-->
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>coin_1</Name>
+        <ImagePath>images/coin_1.gif</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT, ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM, ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+            <Interaction>enemy_1, LEFT,None</Interaction>
+            <Interaction>enemy_1, RIGHT, None</Interaction>
+            <Interaction>enemy_1, BOTTOM,None</Interaction>
+            <Interaction>enemy_1, TOP, None</Interaction>
+            <Interaction>enemy_2, LEFT,None</Interaction>
+            <Interaction>enemy_2, RIGHT, None</Interaction>
+            <Interaction>enemy_2, BOTTOM,None</Interaction>
+            <Interaction>enemy_2, TOP, None</Interaction>
+
+        </Interactions>
+        <Movements>
+            <Movement>Right,5</Movement>
+            <Movement>Down,5</Movement>
+            <Movement>Left,5</Movement>
+            <Movement>Up,5</Movement>
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>coin_2</Name>
+        <ImagePath>images/coin_2.gif</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT, ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM, ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+        </Interactions>
+        <Movements>
+
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>enemy_1</Name>
+        <ImagePath>images/doodle_enemy_1.jpg</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM,None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+
+            <Interaction>coin_1, LEFT,None</Interaction>
+            <Interaction>coin_1, RIGHT, None</Interaction>
+            <Interaction>coin_1, BOTTOM,None</Interaction>
+            <Interaction>coin_1, TOP, None</Interaction>
+
+
+        </Interactions>
+        <Movements>
+            <Movement>Right,50</Movement>
+            <Movement>Down,50</Movement>
+            <Movement>Left,50</Movement>
+            <Movement>Up,50</Movement>
+        </Movements>
+    </Object>
+
+    <Object>
+        <Name>enemy_2</Name>
+        <ImagePath>images/doodle_enemy_2.jpg</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM,None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+
+            <Interaction>coin_1, LEFT,None</Interaction>
+            <Interaction>coin_1, RIGHT, None</Interaction>
+            <Interaction>coin_1, BOTTOM,None</Interaction>
+            <Interaction>coin_1, TOP, None</Interaction>
+
+
+        </Interactions>
+        <Movements>
+            <Movement>Right,50</Movement>
+            <Movement>Down,50</Movement>
+            <Movement>Left,50</Movement>
+            <Movement>Up,50</Movement>
+        </Movements>
+    </Object>
+
+<!--    <Object>-->
+<!--        <Name>Pipe</Name>-->
+<!--        <ImagePath>images/tunnel.png</ImagePath>-->
+<!--        <Size>-->
+<!--            <Width>2</Width>-->
+<!--            <Height>3</Height>-->
+<!--        </Size>-->
+<!--        <Interactions>-->
+<!--            <Interaction>Character, LEFT, None</Interaction>-->
+<!--            <Interaction>Character, RIGHT, None</Interaction>-->
+<!--            <Interaction>Character, BOTTOM, None</Interaction>-->
+<!--            <Interaction>Character, TOP, None</Interaction>-->
+<!--        </Interactions>-->
+<!--        <Movements>-->
+
+<!--        </Movements>-->
+<!--    </Object>-->
+
+<!--    <Object>-->
+<!--        <Name>Flag</Name>-->
+<!--        <ImagePath>images/flagpole.png</ImagePath>-->
+<!--        <Size>-->
+<!--            <Width>1</Width>-->
+<!--            <Height>4</Height>-->
+<!--        </Size>-->
+<!--        <Interactions>-->
+<!--            <Interaction>Character, LEFT, None</Interaction>-->
+<!--            <Interaction>Character, RIGHT, None</Interaction>-->
+<!--            <Interaction>Character, BOTTOM, None</Interaction>-->
+<!--            <Interaction>Character, TOP, None</Interaction>-->
+<!--        </Interactions>-->
+<!--        <Movements>-->
+
+<!--        </Movements>-->
+<!--    </Object>-->
+
+</Objects>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Defines what objects that exist-->
+<Objects>
+    <Object>
+    <Name>brick_3</Name>
+    <ImagePath>images/brick_3.gif</ImagePath>
+    <Size>
+        <Width>1</Width>
+        <Height>1</Height>
+    </Size>
+    <Interactions>
+        <Interaction>Character, LEFT,None</Interaction>
+        <Interaction>Character, RIGHT, None</Interaction>
+        <Interaction>Character, BOTTOM,None</Interaction>
+        <Interaction>Character, TOP, None</Interaction>
+
+
+    </Interactions>
+    <Movements>
+        <!--            <Movement>Down,100</Movement>-->
+    </Movements>
+</Object>
+
+    <Object>
+        <Name>enemy_1</Name>
+        <ImagePath>images/enemy_1.gif</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,None</Interaction>
+            <Interaction>Character, RIGHT, None</Interaction>
+            <Interaction>Character, BOTTOM,None</Interaction>
+            <Interaction>Character, TOP, None</Interaction>
+
+        </Interactions>
+        <Movements>
+                        <Movement>Right,50</Movement>
+                        <Movement>Left,50</Movement>
+
+        </Movements>
+    </Object>
+
+    <Object>
+    <Name>ring_2</Name>
+    <ImagePath>images/coin_2.gif</ImagePath>
+    <Size>
+        <Width>1</Width>
+        <Height>1</Height>
+    </Size>
+    <Interactions>
+        <Interaction>Character, LEFT,ReduceLives</Interaction>
+        <Interaction>Character, RIGHT, ReduceLives</Interaction>
+        <Interaction>Character, BOTTOM,ReduceLives</Interaction>
+        <Interaction>Character, TOP, ReduceLives</Interaction>
+
+    </Interactions>
+    <Movements>
+        <!--            <Movement>Down,100</Movement>-->
+        <Movement>Down,5</Movement>
+        <Movement>Up,5</Movement>
+    </Movements>
+</Object>
+
+    <Object>
+        <Name>ring_3</Name>
+        <ImagePath>images/final_ring.gif</ImagePath>
+        <Size>
+            <Width>1</Width>
+            <Height>1</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Character, LEFT,ReduceLives</Interaction>
+            <Interaction>Character, RIGHT, ReduceLives</Interaction>
+            <Interaction>Character, BOTTOM,ReduceLives</Interaction>
+            <Interaction>Character, TOP, ReduceLives</Interaction>
+
+        </Interactions>
+        <Movements>
+                        <Movement>Down,5</Movement>
+            <Movement>Up,5</Movement>
+
+        </Movements>
+    </Object>
+
+</Objects>

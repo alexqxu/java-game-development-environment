@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General Player Controls-->
+<Characters>
+    <Character>
+        <Name>Mario</Name>
+        <Image>images/mario_running.gif</Image>
+        <Controls>
+            <Control>Left, A</Control>
+            <Control>Right, D</Control>
+            <Control>Up, W</Control>
+            <Control>Down, S</Control>
+        </Controls>
+        <Size>
+            <X>7</X>
+            <Y>2</Y>
+            <Width>1</Width>
+            <Height>2</Height>
+        </Size>
+        <Interactions>
+            <Interaction>Brick, LEFT, Right</Interaction>
+            <Interaction>Brick, RIGHT, Left</Interaction>
+            <Interaction>Brick, TOP, IncreaseScore</Interaction>
+            <Interaction>Brick, BOTTOM, Stand</Interaction>
+            <Interaction>Brick, TOP, Down</Interaction>
+
+            <Interaction>Pipe, LEFT, Right</Interaction>
+            <Interaction>Pipe, RIGHT, Left</Interaction>
+            <Interaction>Pipe, TOP, Down</Interaction>
+            <Interaction>Pipe, BOTTOM, Up</Interaction>
+
+            <Interaction>Ether, TOP, ExternalForce</Interaction>
+
+            <Interaction>MovingBrick, LEFT, IncreaseScore</Interaction>
+            <Interaction>MovingBrick, RIGHT, IncreaseScore</Interaction>
+            <Interaction>MovingBrick, BOTTOM, IncreaseScore</Interaction>
+            <Interaction>MovingBrick, TOP, IncreaseScore</Interaction>
+
+            <Interaction>Flag, LEFT, ReduceLives</Interaction>
+            <Interaction>Flag, RIGHT, ReduceLives</Interaction>
+            <Interaction>Flag, BOTTOM, ReduceLives</Interaction>
+            <Interaction>Flag, TOP, ReduceLives</Interaction>
+
+            <Interaction>Flying_Turtle, LEFT, IncreaseScore</Interaction>
+            <Interaction>Flying_Turtle, RIGHT, IncreaseScore</Interaction>
+            <Interaction>Flying_Turtle, BOTTOM, IncreaseScore</Interaction>
+            <Interaction>Flying_Turtle, TOP, IncreaseScore</Interaction>
+
+            <Interaction>Goomba, LEFT, ReduceLives</Interaction>
+            <Interaction>Goomba, RIGHT, ReduceLives</Interaction>
+            <Interaction>Goomba, BOTTOM, IncreaseScore</Interaction>
+            <Interaction>Goomba, TOP, IncreaseScore</Interaction>
+
+            <Interaction>Bullet_Bill, LEFT, ReduceLives</Interaction>
+            <Interaction>Bullet_Bill, RIGHT, ReduceLives</Interaction>
+            <Interaction>Bullet_Bill, BOTTOM, ReduceLives</Interaction>
+            <Interaction>Bullet_Bill, TOP, ReduceLives</Interaction>
+
+        </Interactions>
+    </Character>
+</Characters>

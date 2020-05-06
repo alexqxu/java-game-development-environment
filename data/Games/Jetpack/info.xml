@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General information to display-->
+
+<Info>
+    <CoverImage>images/cover.jpg</CoverImage>
+    <DescriptionImage>images/cover.jpg</DescriptionImage>
+    <Title>Endless Sky</Title>
+    <Description>Dodge the missiles and reach the end!</Description>
+    <Controls>Use Arrow Keys to Move</Controls>
+</Info>

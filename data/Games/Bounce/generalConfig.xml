@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General Game Configuration-->
+<General>
+    <Boundaries>
+        <Boundary>BoundedTop</Boundary>
+        <Boundary>BoundedLeft</Boundary>
+    </Boundaries>
+    <ScoreThreshold>5</ScoreThreshold>
+</General>

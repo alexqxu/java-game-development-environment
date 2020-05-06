@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General information to display-->
+
+<Info>
+    <CoverImage>images/cover.jpeg</CoverImage>
+    <DescriptionImage>images/cover.jpeg</DescriptionImage>
+    <Title>Doodle Jump Reloaded</Title>
+    <Description>This is a sample game, used for testing purposes</Description>
+    <Controls>Use Arrow Keys to Move</Controls>
+</Info>

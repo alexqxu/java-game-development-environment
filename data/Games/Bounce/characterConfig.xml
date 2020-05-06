@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General Player Controls-->
+<Characters>
+    <Character>
+        <Name>Character</Name>
+        <Image>images/ball.gif</Image>
+        <Controls>
+            <Control>Left, A</Control>
+            <Control>Right, D</Control>
+            <Control>Up, W</Control>
+            <Control>Down, S</Control>
+        </Controls>
+        <Size>
+        <X>4</X>
+        <Y>14</Y>
+        <Width>1</Width>
+        <Height>2</Height>
+    </Size>
+        <Interactions>
+
+<!--            <Interaction>Ether, TOP, ExternalForce</Interaction>-->
+
+<!--            <Interaction>coin_1, LEFT,IncreaseScore</Interaction>-->
+<!--            <Interaction>coin_1, RIGHT, IncreaseScore</Interaction>-->
+<!--            <Interaction>coin_1, BOTTOM,IncreaseScore</Interaction>-->
+<!--            <Interaction>coin_1, TOP, IncreaseScore</Interaction>-->
+
+<!--            <Interaction>coin_2, LEFT,IncreaseScore</Interaction>-->
+<!--            <Interaction>coin_2, RIGHT, IncreaseScore</Interaction>-->
+<!--            <Interaction>coin_2, BOTTOM,IncreaseScore</Interaction>-->
+<!--            <Interaction>coin_2, TOP, IncreaseScore</Interaction>-->
+
+<!--            <Interaction>coin_3, LEFT,ReduceLives</Interaction>-->
+<!--            <Interaction>coin_3, RIGHT, ReduceLives</Interaction>-->
+<!--            <Interaction>coin_3, BOTTOM,ReduceLives</Interaction>-->
+<!--            <Interaction>coin_3, TOP, ReduceLives</Interaction>-->
+
+
+<!--            <Interaction>car_6, LEFT,ReduceLives</Interaction>-->
+<!--            <Interaction>car_6, RIGHT, ReduceLives</Interaction>-->
+<!--            <Interaction>car_6, BOTTOM,ReduceLives</Interaction>-->
+<!--            <Interaction>car_6, TOP, ReduceLives</Interaction>-->
+
+
+<!--            <Interaction>car_2, LEFT,ReduceLives</Interaction>-->
+<!--            <Interaction>car_2, RIGHT, ReduceLives</Interaction>-->
+<!--            <Interaction>car_2, BOTTOM,ReduceLives</Interaction>-->
+<!--            <Interaction>car_2, TOP, ReduceLives</Interaction>-->
+
+
+<!--            <Interaction>car_3, LEFT,ReduceLives</Interaction>-->
+<!--            <Interaction>car_3, RIGHT, ReduceLives</Interaction>-->
+<!--            <Interaction>car_3, BOTTOM,ReduceLives</Interaction>-->
+<!--            <Interaction>car_3, TOP, ReduceLives</Interaction>-->
+
+
+<!--            <Interaction>car_4, LEFT,ReduceLives</Interaction>-->
+<!--            <Interaction>car_4, RIGHT, ReduceLives</Interaction>-->
+<!--            <Interaction>car_4, BOTTOM,ReduceLives</Interaction>-->
+<!--            <Interaction>car_4, TOP, ReduceLives</Interaction>-->
+
+<!--            <Interaction>car_1, LEFT,ReduceLives</Interaction>-->
+<!--            <Interaction>car_1, RIGHT, ReduceLives</Interaction>-->
+<!--            <Interaction>car_1, BOTTOM,ReduceLives</Interaction>-->
+<!--            <Interaction>car_1, TOP, ReduceLives</Interaction>-->
+
+                        <Interaction>Ether, TOP, ExternalForce</Interaction>
+
+                        <Interaction>brick_3, LEFT,Right</Interaction>
+            <Interaction>brick_3, RIGHT, Left</Interaction>
+            <Interaction>brick_3, BOTTOM,Stand</Interaction>
+            <Interaction>brick_3, TOP, Down</Interaction>
+
+            <Interaction>ring_2, LEFT,IncreaseScore</Interaction>
+            <Interaction>ring_2, RIGHT, IncreaseScore</Interaction>
+            <Interaction>ring_2, BOTTOM,IncreaseScore</Interaction>
+            <Interaction>ring_2, TOP, IncreaseScore</Interaction>
+
+            <Interaction>enemy_1, LEFT,ReduceLives</Interaction>
+            <Interaction>enemy_1, RIGHT, ReduceLives</Interaction>
+            <Interaction>enemy_1, BOTTOM,ReduceLives</Interaction>
+            <Interaction>enemy_1, TOP, ReduceLives</Interaction>
+
+            <Interaction>ring_3, LEFT,ReduceLives</Interaction>
+            <Interaction>ring_3, RIGHT, ReduceLives</Interaction>
+            <Interaction>ring_3, BOTTOM,ReduceLives</Interaction>
+            <Interaction>ring_3, TOP, ReduceLives</Interaction>
+
+
+        </Interactions>
+    </Character>
+
+<!--    <Character>-->
+<!--        <Name>BOT</Name>-->
+<!--        <Image>images/mario_running.gif</Image>-->
+<!--        <Controls>-->
+<!--            <Control>Left, "virtual"A</Control>-->
+<!--            <Control>Right, "virtual"D</Control>-->
+<!--            <Control>Up, "virtual"W</Control>-->
+<!--            <Control>Down, "virtual"S</Control>-->
+<!--        </Controls>-->
+<!--        <Size>-->
+<!--            <X>7</X>-->
+<!--            <Y>2</Y>-->
+<!--            <Width>1</Width>-->
+<!--            <Height>2</Height>-->
+<!--        </Size>-->
+<!--        <Interactions>-->
+<!--            <Interaction>Brick, LEFT, Right</Interaction>-->
+<!--            <Interaction>Brick, RIGHT, Left</Interaction>-->
+<!--            <Interaction>Brick, BOTTOM, Stand</Interaction>-->
+<!--            <Interaction>Brick, TOP, Down</Interaction>-->
+<!--            <Interaction>Ether, TOP, ExternalForce</Interaction>-->
+
+<!--            <Interaction>MovingBrick, LEFT, WallHitLeft</Interaction>-->
+<!--            <Interaction>MovingBrick, RIGHT, WallHitRight</Interaction>-->
+<!--            <Interaction>MovingBrick, BOTTOM, Stand</Interaction>-->
+<!--            <Interaction>MovingBrick, TOP, Stand</Interaction>-->
+<!--        </Interactions>-->
+<!--    </Character>-->
+</Characters>

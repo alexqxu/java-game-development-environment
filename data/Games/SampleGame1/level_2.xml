@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Initialization of objects-->
+<Level>
+    <BackgroundImage>bg.png</BackgroundImage>
+    <Cell>
+        <Object>Brick</Object>
+        <X>3</X>
+        <Y>4</Y>
+    </Cell>
+</Level>

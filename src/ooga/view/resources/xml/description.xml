@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<setup>
+  <LayoutComponent name="HBox">
+    <LayoutComponent name="VBox">
+      <ButtonComponent name="selectionScene"/>
+      <LabelComponent name ="parser_Title"/>
+      <LabelComponent name="parser_Description"/>
+      <LayoutComponent name = "HBox">
+        <ButtonComponent name = "Play"/>
+        <ButtonComponent name="LevelCreater"/>
+        <ButtonComponent name="PlayBot"/>
+        <DropdownComponent name = "Language"/>
+      </LayoutComponent>
+  <!--    <DropDownComponent name="CharacterSelect"/>-->
+      <LayoutComponent name="VBox">
+        <LabelComponent name="parser_Controls"/>
+      </LayoutComponent>
+    </LayoutComponent>
+<!--    Will eventually have to get from parser but not currently implemented in backend-->
+    <LayoutComponent name="VBox">
+      <ImageComponent name="parser_DescriptionImage"/>
+      <HighScoreViewComponent name="HighScoreTable"/>
+      <DropdownComponent name = "Language"/>
+    </LayoutComponent>
+  </LayoutComponent>
+</setup>
+
+        <!--  <LayoutComponent name="VBox">-->
+        <!--    <LayoutComponent name="HBox">-->
+        <!--      <ButtonComponent name="selectionScene"/>-->
+        <!--      <LanguageDropdownComponent name ="selectLanguage"/>-->
+        <!--      <ButtonComponent name="Play"/>-->
+        <!--    </LayoutComponent>-->
+        <!--  </LayoutComponent>-->
+        <!--  <LayoutComponent name="VBox">-->
+        <!--    <TextFieldComponent name="Name" label="Username"/>-->
+        <!--    <TextFieldComponent name="Name"/>-->
+        <!--    <ButtonComponent name="loginScene"/>-->
+        <!--    <ButtonComponent name="LevelCreater"/>-->
+        <!--  </LayoutComponent>-->

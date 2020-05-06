@@ -1,0 +1,49 @@
+.root{
+  -fx-padding: 10;
+  -fx-pref-width: 800;
+  -fx-pref-height: 500;
+  -fx-background-color: #000000;
+}
+
+#gridpane {
+  -fx-background-color:  linear-gradient(lightgray, gray);
+  -fx-border-color: #000000;
+  -fx-border-radius: 20;
+  -fx-padding: 10, 10, 10, 10;
+  -fx-pref-height: 350;
+  -fx-background-radius: 20;
+  -fx-hgap: 10;
+  -fx-vgap: 15;
+}
+
+#btnLogin {
+  -fx-background-color: linear-gradient(orange, orangered );
+}
+
+#text {
+  -fx-fill:  linear-gradient(orange , orangered);
+}
+
+#vbox-prime{
+  -fx-spacing: 20;
+  -fx-padding: 10, 10, 10, 10;
+  -fx-background-color:  linear-gradient(gray,DimGrey );
+}
+
+#vbox{
+  -fx-padding: 20,20,20,30;
+}
+
+#Text-HBox{
+  -fx-pref-height: 10;
+}
+
+#user-field{
+  -fx-pref-width: 600;
+  -fx-pref-height: 40;
+}
+
+#password-field{
+  -fx-pref-width: 600;
+  -fx-pref-height: 40;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--General information to display-->
+
+<Info>
+    <CoverImage>images/cover.png</CoverImage>
+    <DescriptionImage>images/cover.png</DescriptionImage>
+    <Title>Mario: Revenge of Luigi</Title>
+    <Description>This is a sample game, used for testing purposes</Description>
+    <Controls>Use Arrow Keys to Move</Controls>
+</Info>

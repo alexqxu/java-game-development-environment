@@ -1,0 +1,23 @@
+.root{
+  -fx-padding: 10;
+  -fx-pref-width: 800;
+  -fx-pref-height: 500;
+}
+
+#SelectionSceneImage{
+  -fx-pref-height: 50;
+  -fx-pref-width: 50;
+}
+
+#hbox{
+  -fx-spacing: 30;
+}
+
+#selection-vbox{
+  -fx-spacing: 50;
+  -fx-padding: 10, 10, 10, 10;
+}
+
+#top-vbox{
+  -fx-spacing: 10;
+}
